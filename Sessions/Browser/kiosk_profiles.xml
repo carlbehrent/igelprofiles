@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<profiles>
+    <profile>
+        <profile_id>73672</profile_id>
+        <profilename>Kiosk Mode</profilename>
+        <firmware>
+            <model>IGEL UD Pocket</model>
+            <version>10.03.550.01</version>
+        </firmware>
+        <description></description>
+        <overwritesessions>false</overwritesessions>
+        <is_master_profile>false</is_master_profile>
+        <settings/>
+        <instancesettings>
+            <instance classprefix="sessions.browser%" serialnumber="-7e694c4c:162b6daaa99:-7fff10.218.232.162">
+                <ivalue classname="sessions.browser%.waittime2restart" variableExpression="" variableSubstitutionActive="false">0</ivalue>
+                <ivalue classname="sessions.browser%.waittime2autostart" variableExpression="" variableSubstitutionActive="false">5</ivalue>
+                <ivalue classname="sessions.browser%.waitfornetwork" variableExpression="" variableSubstitutionActive="false">true</ivalue>
+                <ivalue classname="sessions.browser%.usehotkey" variableExpression="" variableSubstitutionActive="false">false</ivalue>
+                <ivalue classname="sessions.browser%.startmenu_system" variableExpression="" variableSubstitutionActive="false">false</ivalue>
+                <ivalue classname="sessions.browser%.startmenu" variableExpression="" variableSubstitutionActive="false">true</ivalue>
+                <ivalue classname="sessions.browser%.snotify" variableExpression="" variableSubstitutionActive="false">true</ivalue>
+                <ivalue classname="sessions.browser%.scardautostart" variableExpression="" variableSubstitutionActive="false">false</ivalue>
+                <ivalue classname="sessions.browser%.restart" variableExpression="" variableSubstitutionActive="false">true</ivalue>
+                <ivalue classname="sessions.browser%.quick_start" variableExpression="" variableSubstitutionActive="false">false</ivalue>
+                <ivalue classname="sessions.browser%.pwprotected" variableExpression="" variableSubstitutionActive="false">none</ivalue>
+                <ivalue classname="sessions.browser%.pulldown" variableExpression="" variableSubstitutionActive="false">false</ivalue>
+                <ivalue classname="sessions.browser%.position" variableExpression="" variableSubstitutionActive="false">0</ivalue>
+                <ivalue classname="sessions.browser%.name" variableExpression="" variableSubstitutionActive="false">Kiosk</ivalue>
+                <ivalue classname="sessions.browser%.menu_path" variableExpression="" variableSubstitutionActive="false"></ivalue>
+                <ivalue classname="sessions.browser%.icon" variableExpression="" variableSubstitutionActive="false">firefox</ivalue>
+                <ivalue classname="sessions.browser%.hotkeymodifier" variableExpression="" variableSubstitutionActive="false">None</ivalue>
+                <ivalue classname="sessions.browser%.hotkey" variableExpression="" variableSubstitutionActive="false"></ivalue>
+                <ivalue classname="sessions.browser%.firefox_version" variableExpression="" variableSubstitutionActive="false">52.3.0</ivalue>
+                <ivalue classname="sessions.browser%.desktop_path" variableExpression="" variableSubstitutionActive="false"></ivalue>
+                <ivalue classname="sessions.browser%.desktop" variableExpression="" variableSubstitutionActive="false">true</ivalue>
+                <ivalue classname="sessions.browser%.autostart" variableExpression="" variableSubstitutionActive="false">true</ivalue>
+                <ivalue classname="sessions.browser%.applaunch_system" variableExpression="" variableSubstitutionActive="false">false</ivalue>
+                <ivalue classname="sessions.browser%.applaunch_path" variableExpression="" variableSubstitutionActive="false"></ivalue>
+                <ivalue classname="sessions.browser%.applaunch" variableExpression="" variableSubstitutionActive="false">true</ivalue>
+                <ivalue classname="sessions.browser%.app.xineramamonitor" variableExpression="" variableSubstitutionActive="false">0</ivalue>
+                <ivalue classname="sessions.browser%.app.use_printdialog_global" variableExpression="" variableSubstitutionActive="false">true</ivalue>
+                <ivalue classname="sessions.browser%.app.use_menubar" variableExpression="" variableSubstitutionActive="false">true</ivalue>
+                <ivalue classname="sessions.browser%.app.urlbar_group_hidden" variableExpression="" variableSubstitutionActive="false">true</ivalue>
+                <ivalue classname="sessions.browser%.app.tools_hidden" variableExpression="" variableSubstitutionActive="false">false</ivalue>
+                <ivalue classname="sessions.browser%.app.tabs_bar_hidden" variableExpression="" variableSubstitutionActive="false">true</ivalue>
+                <ivalue classname="sessions.browser%.app.start_maximized" variableExpression="" variableSubstitutionActive="false">false</ivalue>
+                <ivalue classname="sessions.browser%.app.sidebar_hidden" variableExpression="" variableSubstitutionActive="false">true</ivalue>
+                <ivalue classname="sessions.browser%.app.showsettings" variableExpression="" variableSubstitutionActive="false">true</ivalue>
+                <ivalue classname="sessions.browser%.app.session_homepage" variableExpression="" variableSubstitutionActive="false"></ivalue>
+                <ivalue classname="sessions.browser%.app.security_tls_version_min" variableExpression="" variableSubstitutionActive="false">99</ivalue>
+                <ivalue classname="sessions.browser%.app.security_tls_version_max" variableExpression="" variableSubstitutionActive="false">99</ivalue>
+                <ivalue classname="sessions.browser%.app.security_default_personal_cert" variableExpression="" variableSubstitutionActive="false">99</ivalue>
+                <ivalue classname="sessions.browser%.app.search_group_hidden" variableExpression="" variableSubstitutionActive="false">true</ivalue>
+                <ivalue classname="sessions.browser%.app.screen_resolution" variableExpression="" variableSubstitutionActive="false">99</ivalue>
+                <ivalue classname="sessions.browser%.app.save_passwords" variableExpression="" variableSubstitutionActive="false">99</ivalue>
+                <ivalue classname="sessions.browser%.app.save_forms" variableExpression="" variableSubstitutionActive="false">99</ivalue>
+                <ivalue classname="sessions.browser%.app.save_browsehistory" variableExpression="" variableSubstitutionActive="false">99</ivalue>
+                <ivalue classname="sessions.browser%.app.restart_timeout_unit" variableExpression="" variableSubstitutionActive="false">minutes</ivalue>
+                <ivalue classname="sessions.browser%.app.restart_timeout_enabled" variableExpression="" variableSubstitutionActive="false">false</ivalue>
+                <ivalue classname="sessions.browser%.app.restart_timeout" variableExpression="" variableSubstitutionActive="false">5</ivalue>
+                <ivalue classname="sessions.browser%.app.proxy_type" variableExpression="" variableSubstitutionActive="false">99</ivalue>
+                <ivalue classname="sessions.browser%.app.proxy_ssl_port" variableExpression="" variableSubstitutionActive="false"></ivalue>
+                <ivalue classname="sessions.browser%.app.proxy_ssl" variableExpression="" variableSubstitutionActive="false"></ivalue>
+                <ivalue classname="sessions.browser%.app.proxy_socks_version" variableExpression="" variableSubstitutionActive="false">5</ivalue>
+                <ivalue classname="sessions.browser%.app.proxy_socks_port" variableExpression="" variableSubstitutionActive="false"></ivalue>
+                <ivalue classname="sessions.browser%.app.proxy_socks" variableExpression="" variableSubstitutionActive="false"></ivalue>
+                <ivalue classname="sessions.browser%.app.proxy_http_port" variableExpression="" variableSubstitutionActive="false"></ivalue>
+                <ivalue classname="sessions.browser%.app.proxy_http" variableExpression="" variableSubstitutionActive="false"></ivalue>
+                <ivalue classname="sessions.browser%.app.proxy_ftp_port" variableExpression="" variableSubstitutionActive="false"></ivalue>
+                <ivalue classname="sessions.browser%.app.proxy_ftp" variableExpression="" variableSubstitutionActive="false"></ivalue>
+                <ivalue classname="sessions.browser%.app.proxy_autoconfig_url" variableExpression="" variableSubstitutionActive="false"></ivalue>
+                <ivalue classname="sessions.browser%.app.privatebrowsing" variableExpression="" variableSubstitutionActive="false">99</ivalue>
+                <ivalue classname="sessions.browser%.app.privacy_trackingprotection" variableExpression="" variableSubstitutionActive="false">99</ivalue>
+                <ivalue classname="sessions.browser%.app.privacy_hidden" variableExpression="" variableSubstitutionActive="false">false</ivalue>
+                <ivalue classname="sessions.browser%.app.privacy_donottrack" variableExpression="" variableSubstitutionActive="false">99</ivalue>
+                <ivalue classname="sessions.browser%.app.print_papersize" variableExpression="" variableSubstitutionActive="false">A4</ivalue>
+                <ivalue classname="sessions.browser%.app.print_button_hidden" variableExpression="" variableSubstitutionActive="false">true</ivalue>
+                <ivalue classname="sessions.browser%.app.personal_bar_hidden" variableExpression="" variableSubstitutionActive="false">true</ivalue>
+                <ivalue classname="sessions.browser%.app.permissions_default_image" variableExpression="" variableSubstitutionActive="false">99</ivalue>
+                <ivalue classname="sessions.browser%.app.param_conv" variableExpression="" variableSubstitutionActive="false">false</ivalue>
+                <ivalue classname="sessions.browser%.app.oldsearchbar" variableExpression="" variableSubstitutionActive="false">99</ivalue>
+                <ivalue classname="sessions.browser%.app.no_remote" variableExpression="" variableSubstitutionActive="false">false</ivalue>
+                <ivalue classname="sessions.browser%.app.no_proxies_on" variableExpression="" variableSubstitutionActive="false"></ivalue>
+                <ivalue classname="sessions.browser%.app.nav_bar_hidden" variableExpression="" variableSubstitutionActive="false">true</ivalue>
+                <ivalue classname="sessions.browser%.app.mousewheel_with_win_multiplier" variableExpression="" variableSubstitutionActive="false">99</ivalue>
+                <ivalue classname="sessions.browser%.app.mousewheel_with_win_action" variableExpression="" variableSubstitutionActive="false">99</ivalue>
+                <ivalue classname="sessions.browser%.app.mousewheel_with_shift_multiplier" variableExpression="" variableSubstitutionActive="false">99</ivalue>
+                <ivalue classname="sessions.browser%.app.mousewheel_with_shift_action" variableExpression="" variableSubstitutionActive="false">99</ivalue>
+                <ivalue classname="sessions.browser%.app.mousewheel_with_control_multiplier" variableExpression="" variableSubstitutionActive="false">99</ivalue>
+                <ivalue classname="sessions.browser%.app.mousewheel_with_control_action" variableExpression="" variableSubstitutionActive="false">99</ivalue>
+                <ivalue classname="sessions.browser%.app.mousewheel_with_alt_multiplier" variableExpression="" variableSubstitutionActive="false">99</ivalue>
+                <ivalue classname="sessions.browser%.app.mousewheel_with_alt_action" variableExpression="" variableSubstitutionActive="false">99</ivalue>
+                <ivalue classname="sessions.browser%.app.main_menubar_hidden" variableExpression="" variableSubstitutionActive="false">true</ivalue>
+                <ivalue classname="sessions.browser%.app.location_bar_hidden" variableExpression="" variableSubstitutionActive="false">false</ivalue>
+                <ivalue classname="sessions.browser%.app.layout_spellcheck" variableExpression="" variableSubstitutionActive="false">99</ivalue>
+                <ivalue classname="sessions.browser%.app.language" variableExpression="" variableSubstitutionActive="false">default</ivalue>
+                <ivalue classname="sessions.browser%.app.javascript_options_showinconsole" variableExpression="" variableSubstitutionActive="false">99</ivalue>
+                <ivalue classname="sessions.browser%.app.javascript_enabled" variableExpression="" variableSubstitutionActive="false">99</ivalue>
+                <ivalue classname="sessions.browser%.app.homepage" variableExpression="" variableSubstitutionActive="false">http://edocs.igel.com|http://www.igel.com</ivalue>
+                <ivalue classname="sessions.browser%.app.home_button_hidden" variableExpression="" variableSubstitutionActive="false">true</ivalue>
+                <ivalue classname="sessions.browser%.app.hidecontextmenu" variableExpression="" variableSubstitutionActive="false">true</ivalue>
+                <ivalue classname="sessions.browser%.app.general_smoothscroll" variableExpression="" variableSubstitutionActive="false">99</ivalue>
+                <ivalue classname="sessions.browser%.app.general_autoscroll" variableExpression="" variableSubstitutionActive="false">99</ivalue>
+                <ivalue classname="sessions.browser%.app.fullscreen_mode" variableExpression="" variableSubstitutionActive="false">true</ivalue>
+                <ivalue classname="sessions.browser%.app.font_minimum_size" variableExpression="" variableSubstitutionActive="false">99</ivalue>
+                <ivalue classname="sessions.browser%.app.filepicker_dialog_hidden" variableExpression="" variableSubstitutionActive="false">true</ivalue>
+                <ivalue classname="sessions.browser%.app.dom_event_contextmenu_enabled" variableExpression="" variableSubstitutionActive="false">true</ivalue>
+                <ivalue classname="sessions.browser%.app.dom_disable_window_move_resize" variableExpression="" variableSubstitutionActive="false">false</ivalue>
+                <ivalue classname="sessions.browser%.app.dom_disable_window_flip" variableExpression="" variableSubstitutionActive="false">true</ivalue>
+                <ivalue classname="sessions.browser%.app.dom_disable_open_during_load" variableExpression="" variableSubstitutionActive="false">99</ivalue>
+                <ivalue classname="sessions.browser%.app.disablegstreamer" variableExpression="" variableSubstitutionActive="false">99</ivalue>
+                <ivalue classname="sessions.browser%.app.disable_searchpage" variableExpression="" variableSubstitutionActive="false">true</ivalue>
+                <ivalue classname="sessions.browser%.app.disable_savemodifier" variableExpression="" variableSubstitutionActive="false">false</ivalue>
+                <ivalue classname="sessions.browser%.app.disable_keyshowinfo" variableExpression="" variableSubstitutionActive="false">false</ivalue>
+                <ivalue classname="sessions.browser%.app.disable_keysavepage" variableExpression="" variableSubstitutionActive="false">false</ivalue>
+                <ivalue classname="sessions.browser%.app.disable_keyquitclose" variableExpression="" variableSubstitutionActive="false">false</ivalue>
+                <ivalue classname="sessions.browser%.app.disable_keyprintdialog" variableExpression="" variableSubstitutionActive="false">false</ivalue>
+                <ivalue classname="sessions.browser%.app.disable_keyopenhelp" variableExpression="" variableSubstitutionActive="false">false</ivalue>
+                <ivalue classname="sessions.browser%.app.disable_keyopen" variableExpression="" variableSubstitutionActive="false">false</ivalue>
+                <ivalue classname="sessions.browser%.app.disable_keynewwin" variableExpression="" variableSubstitutionActive="false">false</ivalue>
+                <ivalue classname="sessions.browser%.app.disable_keybookmarks" variableExpression="" variableSubstitutionActive="false">false</ivalue>
+                <ivalue classname="sessions.browser%.app.disable_contextwebsearch" variableExpression="" variableSubstitutionActive="false">true</ivalue>
+                <ivalue classname="sessions.browser%.app.disable_contextshowinfo" variableExpression="" variableSubstitutionActive="false">true</ivalue>
+                <ivalue classname="sessions.browser%.app.disable_contextsavepage" variableExpression="" variableSubstitutionActive="false">true</ivalue>
+                <ivalue classname="sessions.browser%.app.disable_contextnewwin" variableExpression="" variableSubstitutionActive="false">true</ivalue>
+                <ivalue classname="sessions.browser%.app.disable_contextnavigation" variableExpression="" variableSubstitutionActive="false">true</ivalue>
+                <ivalue classname="sessions.browser%.app.disable_contextbookmarks" variableExpression="" variableSubstitutionActive="false">true</ivalue>
+                <ivalue classname="sessions.browser%.app.disable_caretbrowsing" variableExpression="" variableSubstitutionActive="false">false</ivalue>
+                <ivalue classname="sessions.browser%.app.disable_all_hotkeys" variableExpression="" variableSubstitutionActive="false">false</ivalue>
+                <ivalue classname="sessions.browser%.app.custom_toolbar.nav-bar" variableExpression="" variableSubstitutionActive="false"></ivalue>
+                <ivalue classname="sessions.browser%.app.custom_toolbar.applicationmenu" variableExpression="" variableSubstitutionActive="false"></ivalue>
+                <ivalue classname="sessions.browser%.app.custom_toolbar.allow" variableExpression="" variableSubstitutionActive="false">true</ivalue>
+                <ivalue classname="sessions.browser%.app.conv_save_passwords" variableExpression="" variableSubstitutionActive="false">99</ivalue>
+                <ivalue classname="sessions.browser%.app.conv_save_forms" variableExpression="" variableSubstitutionActive="false">99</ivalue>
+                <ivalue classname="sessions.browser%.app.conv_save_browsehistory" variableExpression="" variableSubstitutionActive="false">99</ivalue>
+                <ivalue classname="sessions.browser%.app.conv_proxy_type" variableExpression="" variableSubstitutionActive="false">99</ivalue>
+                <ivalue classname="sessions.browser%.app.conv_proxy_ssl_port" variableExpression="" variableSubstitutionActive="false"></ivalue>
+                <ivalue classname="sessions.browser%.app.conv_proxy_ssl" variableExpression="" variableSubstitutionActive="false"></ivalue>
+                <ivalue classname="sessions.browser%.app.conv_proxy_socks_version" variableExpression="" variableSubstitutionActive="false">5</ivalue>
+                <ivalue classname="sessions.browser%.app.conv_proxy_socks_port" variableExpression="" variableSubstitutionActive="false"></ivalue>
+                <ivalue classname="sessions.browser%.app.conv_proxy_socks" variableExpression="" variableSubstitutionActive="false"></ivalue>
+                <ivalue classname="sessions.browser%.app.conv_proxy_preset_cred.username" variableExpression="" variableSubstitutionActive="false"></ivalue>
+                <ivalue classname="sessions.browser%.app.conv_proxy_preset_cred.realm" variableExpression="" variableSubstitutionActive="false"></ivalue>
+                <ivalue classname="sessions.browser%.app.conv_proxy_preset_cred.passthrough" variableExpression="" variableSubstitutionActive="false">false</ivalue>
+                <ivalue classname="sessions.browser%.app.conv_proxy_preset_cred.crypt_password" variableExpression="" variableSubstitutionActive="false"></ivalue>
+                <ivalue classname="sessions.browser%.app.conv_proxy_http_port" variableExpression="" variableSubstitutionActive="false"></ivalue>
+                <ivalue classname="sessions.browser%.app.conv_proxy_http" variableExpression="" variableSubstitutionActive="false"></ivalue>
+                <ivalue classname="sessions.browser%.app.conv_proxy_ftp_port" variableExpression="" variableSubstitutionActive="false"></ivalue>
+                <ivalue classname="sessions.browser%.app.conv_proxy_ftp" variableExpression="" variableSubstitutionActive="false"></ivalue>
+                <ivalue classname="sessions.browser%.app.conv_proxy_autologin" variableExpression="" variableSubstitutionActive="false">true</ivalue>
+                <ivalue classname="sessions.browser%.app.conv_proxy_autoconfig_url" variableExpression="" variableSubstitutionActive="false"></ivalue>
+                <ivalue classname="sessions.browser%.app.conv_print_papersize" variableExpression="" variableSubstitutionActive="false">A4</ivalue>
+                <ivalue classname="sessions.browser%.app.conv_no_proxies_on" variableExpression="" variableSubstitutionActive="false">localhost, 127.0.0.1</ivalue>
+                <ivalue classname="sessions.browser%.app.conv_homepage" variableExpression="" variableSubstitutionActive="false">http://edocs.igel.com</ivalue>
+                <ivalue classname="sessions.browser%.app.clear_data.enabled" variableExpression="" variableSubstitutionActive="false">99</ivalue>
+                <ivalue classname="sessions.browser%.app.clear_data.conv_enabled" variableExpression="" variableSubstitutionActive="false">99</ivalue>
+                <ivalue classname="sessions.browser%.app.clear_data.conv_clear_passwords" variableExpression="" variableSubstitutionActive="false">99</ivalue>
+                <ivalue classname="sessions.browser%.app.clear_data.conv_clear_formdata" variableExpression="" variableSubstitutionActive="false">99</ivalue>
+                <ivalue classname="sessions.browser%.app.clear_data.conv_clear_cookies" variableExpression="" variableSubstitutionActive="false">99</ivalue>
+                <ivalue classname="sessions.browser%.app.clear_data.conv_clear_cache" variableExpression="" variableSubstitutionActive="false">99</ivalue>
+                <ivalue classname="sessions.browser%.app.clear_data.conv_clear_browsehistory" variableExpression="" variableSubstitutionActive="false">99</ivalue>
+                <ivalue classname="sessions.browser%.app.clear_data.conv_clear_authsessions" variableExpression="" variableSubstitutionActive="false">99</ivalue>
+                <ivalue classname="sessions.browser%.app.clear_data.clear_sitesettings" variableExpression="" variableSubstitutionActive="false">99</ivalue>
+                <ivalue classname="sessions.browser%.app.clear_data.clear_passwords" variableExpression="" variableSubstitutionActive="false">99</ivalue>
+                <ivalue classname="sessions.browser%.app.clear_data.clear_offlineapps" variableExpression="" variableSubstitutionActive="false">99</ivalue>
+                <ivalue classname="sessions.browser%.app.clear_data.clear_formdata" variableExpression="" variableSubstitutionActive="false">99</ivalue>
+                <ivalue classname="sessions.browser%.app.clear_data.clear_cookies" variableExpression="" variableSubstitutionActive="false">99</ivalue>
+                <ivalue classname="sessions.browser%.app.clear_data.clear_cache" variableExpression="" variableSubstitutionActive="false">99</ivalue>
+                <ivalue classname="sessions.browser%.app.clear_data.clear_browsehistory" variableExpression="" variableSubstitutionActive="false">99</ivalue>
+                <ivalue classname="sessions.browser%.app.clear_data.clear_authsessions" variableExpression="" variableSubstitutionActive="false">99</ivalue>
+                <ivalue classname="sessions.browser%.app.browser_urlbar_suggest_openpage" variableExpression="" variableSubstitutionActive="false">99</ivalue>
+                <ivalue classname="sessions.browser%.app.browser_urlbar_suggest_history_onlytyped" variableExpression="" variableSubstitutionActive="false">99</ivalue>
+                <ivalue classname="sessions.browser%.app.browser_urlbar_suggest_history" variableExpression="" variableSubstitutionActive="false">99</ivalue>
+                <ivalue classname="sessions.browser%.app.browser_urlbar_suggest_bookmark" variableExpression="" variableSubstitutionActive="false">99</ivalue>
+                <ivalue classname="sessions.browser%.app.browser_tabs_warnonopen" variableExpression="" variableSubstitutionActive="false">99</ivalue>
+                <ivalue classname="sessions.browser%.app.browser_tabs_warnonclose" variableExpression="" variableSubstitutionActive="false">99</ivalue>
+                <ivalue classname="sessions.browser%.app.browser_tabs_loadinbackground" variableExpression="" variableSubstitutionActive="false">99</ivalue>
+                <ivalue classname="sessions.browser%.app.browser_startup_page" variableExpression="" variableSubstitutionActive="false">1</ivalue>
+                <ivalue classname="sessions.browser%.app.browser_safebrowsing_malware_enabled" variableExpression="" variableSubstitutionActive="false">99</ivalue>
+                <ivalue classname="sessions.browser%.app.browser_safebrowsing_enabled" variableExpression="" variableSubstitutionActive="false">99</ivalue>
+                <ivalue classname="sessions.browser%.app.browser_link_open_newwindow" variableExpression="" variableSubstitutionActive="false">99</ivalue>
+                <ivalue classname="sessions.browser%.app.browser_fullscreen_autohide" variableExpression="" variableSubstitutionActive="false">99</ivalue>
+                <ivalue classname="sessions.browser%.app.browser_download_folderlist" variableExpression="" variableSubstitutionActive="false">99</ivalue>
+                <ivalue classname="sessions.browser%.app.browser_download_dir" variableExpression="" variableSubstitutionActive="false">/tmp</ivalue>
+                <ivalue classname="sessions.browser%.app.browser_display_background_color" variableExpression="" variableSubstitutionActive="false">#FFFFFF</ivalue>
+                <ivalue classname="sessions.browser%.app.bookmmenu_hidden" variableExpression="" variableSubstitutionActive="false">false</ivalue>
+                <ivalue classname="sessions.browser%.app.bookmarks_button_hidden" variableExpression="" variableSubstitutionActive="false">true</ivalue>
+                <ivalue classname="sessions.browser%.app.autostart_privatebrowsing" variableExpression="" variableSubstitutionActive="false">99</ivalue>
+                <ivalue classname="sessions.browser%.app.allowprint" variableExpression="" variableSubstitutionActive="false">false</ivalue>
+                <ivalue classname="sessions.browser%.app.accessibility_typeaheadfind" variableExpression="" variableSubstitutionActive="false">99</ivalue>
+                <ivalue classname="sessions.browser%.app.accessibility_browsewithcaret" variableExpression="" variableSubstitutionActive="false">99</ivalue>
+                <ivalue classname="sessions.browser%.app.accessibility_blockautorefresh" variableExpression="" variableSubstitutionActive="false">99</ivalue>
+                <ivalue classname="sessions.browser%.app.accept_languages" variableExpression="" variableSubstitutionActive="false"></ivalue>
+                <ivalue classname="sessions.browser%.app.aboutconfig_hidden" variableExpression="" variableSubstitutionActive="false">true</ivalue>
+            </instance>
+        </instancesettings>
+    </profile>
+</profiles>
