@@ -2,7 +2,7 @@
 <profiles>
     <profile>
         <profile_id>74343</profile_id>
-        <profilename>Citrix Desktop Viewer</profilename>
+        <profilename>Citrix Connection Bar</profilename>
         <firmware>
             <model>IGEL UD Pocket</model>
             <version>10.03.550.01</version>
