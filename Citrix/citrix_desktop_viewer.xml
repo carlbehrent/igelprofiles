@@ -7,7 +7,7 @@
             <model>IGEL UD Pocket</model>
             <version>10.03.550.01</version>
         </firmware>
-        <description>This enabled the Citrix Desktop Viewer bar within a Citrix Published Desktop</description>
+        <description>This enabled the Citrix Connection Bar within a Citrix Published Desktop</description>
         <overwritesessions>false</overwritesessions>
         <is_master_profile>false</is_master_profile>
         <settings>
