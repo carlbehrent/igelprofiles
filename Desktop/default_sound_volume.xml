@@ -7,7 +7,7 @@
             <model>IGEL UD Pocket</model>
             <version>10.03.550.01</version>
         </firmware>
-        <description></description>
+        <description>Set default sound volume for OS</description>
         <overwritesessions>false</overwritesessions>
         <is_master_profile>false</is_master_profile>
         <settings>
