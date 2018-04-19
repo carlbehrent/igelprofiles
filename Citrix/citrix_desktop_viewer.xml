@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<profiles>
+    <profile>
+        <profile_id>74343</profile_id>
+        <profilename>Citrix Desktop Viewer</profilename>
+        <firmware>
+            <model>IGEL UD Pocket</model>
+            <version>10.03.550.01</version>
+        </firmware>
+        <description>This enabled the Citrix Desktop Viewer bar within a Citrix Published Desktop</description>
+        <overwritesessions>false</overwritesessions>
+        <is_master_profile>false</is_master_profile>
+        <settings>
+            <pclass name="userinterface.rccustom.custom_cmd_x11_final">
+                <pvalue instancenr="-1" variableExpression="" variableSubstitutionActive="false">sed -i -e 's/^;connectionbar/ConnectionBar/i' /services/ica/ICAClient/config/All_Regions.ini</pvalue>
+                <variableSubstitutionActive>false</variableSubstitutionActive>
+            </pclass>
+        </settings>
+        <instancesettings/>
+    </profile>
+</profiles>
