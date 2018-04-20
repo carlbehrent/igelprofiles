@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<profiles>
+    <profile>
+        <profile_id>74354</profile_id>
+        <profilename>BGInfo</profilename>
+        <firmware>
+            <model>IGEL UD Pocket</model>
+            <version>10.03.550.01</version>
+        </firmware>
+        <description>BGInfo as a desktop icon to display network info (hostname and IP address)</description>
+        <overwritesessions>false</overwritesessions>
+        <is_master_profile>false</is_master_profile>
+        <settings/>
+        <instancesettings>
+            <instance classprefix="sessions.custom_application%" serialnumber="-7e694c4c:162b6daaa99:-7ffe10.218.232.162">
+                <ivalue classname="sessions.custom_application%.waittime2restart" variableExpression="" variableSubstitutionActive="false">0</ivalue>
+                <ivalue classname="sessions.custom_application%.waittime2autostart" variableExpression="" variableSubstitutionActive="false">0</ivalue>
+                <ivalue classname="sessions.custom_application%.waitfornetwork" variableExpression="" variableSubstitutionActive="false">true</ivalue>
+                <ivalue classname="sessions.custom_application%.usehotkey" variableExpression="" variableSubstitutionActive="false">true</ivalue>
+                <ivalue classname="sessions.custom_application%.startmenu_system" variableExpression="" variableSubstitutionActive="false">false</ivalue>
+                <ivalue classname="sessions.custom_application%.startmenu" variableExpression="" variableSubstitutionActive="false">false</ivalue>
+                <ivalue classname="sessions.custom_application%.snotify" variableExpression="" variableSubstitutionActive="false">true</ivalue>
+                <ivalue classname="sessions.custom_application%.scardautostart" variableExpression="" variableSubstitutionActive="false">false</ivalue>
+                <ivalue classname="sessions.custom_application%.restart" variableExpression="" variableSubstitutionActive="false">false</ivalue>
+                <ivalue classname="sessions.custom_application%.quick_start" variableExpression="" variableSubstitutionActive="false">false</ivalue>
+                <ivalue classname="sessions.custom_application%.pwprotected" variableExpression="" variableSubstitutionActive="false">none</ivalue>
+                <ivalue classname="sessions.custom_application%.pulldown" variableExpression="" variableSubstitutionActive="false">true</ivalue>
+                <ivalue classname="sessions.custom_application%.position" variableExpression="" variableSubstitutionActive="false">0</ivalue>
+                <ivalue classname="sessions.custom_application%.name" variableExpression="" variableSubstitutionActive="false">Networkinfo</ivalue>
+                <ivalue classname="sessions.custom_application%.menu_path" variableExpression="" variableSubstitutionActive="false"></ivalue>
+                <ivalue classname="sessions.custom_application%.icon" variableExpression="" variableSubstitutionActive="false">network-settings.png</ivalue>
+                <ivalue classname="sessions.custom_application%.hotkeymodifier" variableExpression="" variableSubstitutionActive="false">Ctrl|Alt</ivalue>
+                <ivalue classname="sessions.custom_application%.hotkey" variableExpression="" variableSubstitutionActive="false">I</ivalue>
+                <ivalue classname="sessions.custom_application%.desktop_path" variableExpression="" variableSubstitutionActive="false"></ivalue>
+                <ivalue classname="sessions.custom_application%.desktop" variableExpression="" variableSubstitutionActive="false">true</ivalue>
+                <ivalue classname="sessions.custom_application%.cmdline" variableExpression="" variableSubstitutionActive="false">notify-send-message -t 20000 -i /usr/share/icons/IGEL-Basic/categories/64/igel-network.png  $(cat /etc/hostname) $(getmyip)</ivalue>
+                <ivalue classname="sessions.custom_application%.autostart" variableExpression="" variableSubstitutionActive="false">false</ivalue>
+                <ivalue classname="sessions.custom_application%.applaunch_system" variableExpression="" variableSubstitutionActive="false">false</ivalue>
+                <ivalue classname="sessions.custom_application%.applaunch_path" variableExpression="" variableSubstitutionActive="false"></ivalue>
+                <ivalue classname="sessions.custom_application%.applaunch" variableExpression="" variableSubstitutionActive="false">false</ivalue>
+            </instance>
+        </instancesettings>
+    </profile>
+</profiles>
