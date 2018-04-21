@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<profiles>
+    <profile>
+        <profile_id>6459</profile_id>
+        <profilename>Citrix Connection - Storefront</profilename>
+        <firmware>
+            <model>IGEL UD Pocket</model>
+            <version>10.02.120.01</version>
+        </firmware>
+        <description>Citrix Server Type: Storefront. Edit Citrix Store Site Address / Store Name. Auto starts app after server connection.</description>
+        <overwritesessions>false</overwritesessions>
+        <is_master_profile>false</is_master_profile>
+        <settings>
+            <pclass name="ica.pnlogin.autostart_list">
+                <pvalue instancenr="-1" variableExpression="" variableSubstitutionActive="false">XenApp Desktop</pvalue>
+                <variableSubstitutionActive>false</variableSubstitutionActive>
+            </pclass>
+            <pclass name="sessions.pnlogin%.autostart">
+                <pvalue instancenr="0" variableExpression="" variableSubstitutionActive="false">true</pvalue>
+                <variableSubstitutionActive>false</variableSubstitutionActive>
+            </pclass>
+            <pclass name="sessions.pnlogin%.desktop">
+                <pvalue instancenr="0" variableExpression="" variableSubstitutionActive="false">true</pvalue>
+                <variableSubstitutionActive>false</variableSubstitutionActive>
+            </pclass>
+            <pclass name="auth.login.autologoff">
+                <pvalue instancenr="-1" variableExpression="" variableSubstitutionActive="false">firefox-bin;wfica</pvalue>
+                <variableSubstitutionActive>false</variableSubstitutionActive>
+            </pclass>
+            <pclass name="ica.pnlogin.serverversion">
+                <pvalue instancenr="-1" variableExpression="" variableSubstitutionActive="false">7S</pvalue>
+                <variableSubstitutionActive>false</variableSubstitutionActive>
+            </pclass>
+            <pclass name="auth.login.autologoff_cmd">
+                <pvalue instancenr="-1" variableExpression="" variableSubstitutionActive="false">/config/bin/setup_cmd /usr/bin/logoff</pvalue>
+                <variableSubstitutionActive>false</variableSubstitutionActive>
+            </pclass>
+            <pclass name="ica.pnlogin.desktop_list">
+                <pvalue instancenr="-1" variableExpression="" variableSubstitutionActive="false">My New Desktop</pvalue>
+                <variableSubstitutionActive>false</variableSubstitutionActive>
+            </pclass>
+        </settings>
+        <instancesettings>
+            <instance classprefix="ica.pnlogin.browseraddress_store%" serialnumber="-58cb579:162e6328a97:-7ff8192.168.1.224">
+                <ivalue classname="ica.pnlogin.browseraddress_store%.config_xml_path" variableExpression="" variableSubstitutionActive="false">Citrix/Store</ivalue>
+                <ivalue classname="ica.pnlogin.browseraddress_store%.farm" variableExpression="" variableSubstitutionActive="false">Store</ivalue>
+                <ivalue classname="ica.pnlogin.browseraddress_store%.server" variableExpression="" variableSubstitutionActive="false">xenappddc.domain.com:443</ivalue>
+                <ivalue classname="ica.pnlogin.browseraddress_store%.url_prefix" variableExpression="" variableSubstitutionActive="false">https://</ivalue>
+            </instance>
+        </instancesettings>
+    </profile>
+</profiles>
