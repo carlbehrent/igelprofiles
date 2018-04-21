@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<profiles>
+    <profile>
+        <profile_id>6449</profile_id>
+        <profilename>Citrix Connection - XenApp</profilename>
+        <firmware>
+            <model>IGEL UD Pocket</model>
+            <version>10.02.120.01</version>
+        </firmware>
+        <description>Puts ICA Connection on IGEL desktop - Citrix Self Service (Edit URL and Store name)</description>
+        <overwritesessions>false</overwritesessions>
+        <is_master_profile>false</is_master_profile>
+        <settings>
+            <pclass name="ica.selfservice.sharedusermode">
+                <pvalue instancenr="-1" variableExpression="" variableSubstitutionActive="false">true</pvalue>
+                <variableSubstitutionActive>false</variableSubstitutionActive>
+            </pclass>
+            <pclass name="ica.selfservice.enable">
+                <pvalue instancenr="-1" variableExpression="" variableSubstitutionActive="false">true</pvalue>
+                <variableSubstitutionActive>false</variableSubstitutionActive>
+            </pclass>
+            <pclass name="sessions.selfservice%.desktop">
+                <pvalue instancenr="0" variableExpression="" variableSubstitutionActive="false">true</pvalue>
+                <variableSubstitutionActive>false</variableSubstitutionActive>
+            </pclass>
+            <pclass name="sessions.selfservice%.name">
+                <pvalue instancenr="0" variableExpression="" variableSubstitutionActive="false">Citrix XenApp</pvalue>
+                <variableSubstitutionActive>false</variableSubstitutionActive>
+            </pclass>
+            <pclass name="ica.selfservice.reconnectonlogon">
+                <pvalue instancenr="-1" variableExpression="" variableSubstitutionActive="false">true</pvalue>
+                <variableSubstitutionActive>false</variableSubstitutionActive>
+            </pclass>
+            <pclass name="ica.selfservice.fullscreenmode">
+                <pvalue instancenr="-1" variableExpression="" variableSubstitutionActive="false">2</pvalue>
+                <variableSubstitutionActive>false</variableSubstitutionActive>
+            </pclass>
+        </settings>
+        <instancesettings>
+            <instance classprefix="ica.selfservice.browseraddress_store%" serialnumber="-58cb579:162e6328a97:-8000192.168.1.224">
+                <ivalue classname="ica.selfservice.browseraddress_store%.config_xml_path" variableExpression="" variableSubstitutionActive="false">Citrix/STORE</ivalue>
+                <ivalue classname="ica.selfservice.browseraddress_store%.defaultstore" variableExpression="" variableSubstitutionActive="false">false</ivalue>
+                <ivalue classname="ica.selfservice.browseraddress_store%.server" variableExpression="" variableSubstitutionActive="false">storefront:443</ivalue>
+                <ivalue classname="ica.selfservice.browseraddress_store%.store" variableExpression="" variableSubstitutionActive="false">STORE</ivalue>
+                <ivalue classname="ica.selfservice.browseraddress_store%.url_prefix" variableExpression="" variableSubstitutionActive="false">https://</ivalue>
+            </instance>
+        </instancesettings>
+    </profile>
+</profiles>
