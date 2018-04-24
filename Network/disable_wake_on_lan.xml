@@ -7,7 +7,7 @@
             <model>IGEL UD Pocket</model>
             <version>10.04.100.01</version>
         </firmware>
-        <description>Disable Wake on LAN on Interface1</description>
+        <description>Disable Wake on LAN on Interface 1</description>
         <overwritesessions>false</overwritesessions>
         <is_master_profile>false</is_master_profile>
         <settings>
