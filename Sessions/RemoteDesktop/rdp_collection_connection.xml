@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<profiles>
+    <profile>
+        <profile_id>7040</profile_id>
+        <profilename>RDP to Collection Connection</profilename>
+        <firmware>
+            <model>IGEL UD Pocket</model>
+            <version>10.02.120.01</version>
+        </firmware>
+        <description>RDP to Specific Collection</description>
+        <overwritesessions>false</overwritesessions>
+        <is_master_profile>false</is_master_profile>
+        <settings/>
+        <instancesettings>
+            <instance classprefix="sessions.winconnect%" serialnumber="75eb6ce0:162f98260e6:-8000192.168.1.224">
+                <ivalue classname="sessions.winconnect%.applaunch" variableExpression="" variableSubstitutionActive="false">true</ivalue>
+                <ivalue classname="sessions.winconnect%.applaunch_path" variableExpression="" variableSubstitutionActive="false"></ivalue>
+                <ivalue classname="sessions.winconnect%.applaunch_system" variableExpression="" variableSubstitutionActive="false">false</ivalue>
+                <ivalue classname="sessions.winconnect%.autostart" variableExpression="" variableSubstitutionActive="false">false</ivalue>
+                <ivalue classname="sessions.winconnect%.desktop" variableExpression="" variableSubstitutionActive="false">true</ivalue>
+                <ivalue classname="sessions.winconnect%.desktop_path" variableExpression="" variableSubstitutionActive="false"></ivalue>
+                <ivalue classname="sessions.winconnect%.final_action" variableExpression="" variableSubstitutionActive="false"></ivalue>
+                <ivalue classname="sessions.winconnect%.hotkey" variableExpression="" variableSubstitutionActive="false"></ivalue>
+                <ivalue classname="sessions.winconnect%.hotkeymodifier" variableExpression="" variableSubstitutionActive="false">None</ivalue>
+                <ivalue classname="sessions.winconnect%.icon" variableExpression="" variableSubstitutionActive="false">RDP</ivalue>
+                <ivalue classname="sessions.winconnect%.init_action" variableExpression="" variableSubstitutionActive="false"></ivalue>
+                <ivalue classname="sessions.winconnect%.menu_path" variableExpression="" variableSubstitutionActive="false"></ivalue>
+                <ivalue classname="sessions.winconnect%.name" variableExpression="" variableSubstitutionActive="false">###LOC_DEFAULT###</ivalue>
+                <ivalue classname="sessions.winconnect%.option.address" variableExpression="" variableSubstitutionActive="false">&amp;ltRDP Server&amp;gt</ivalue>
+                <ivalue classname="sessions.winconnect%.option.cert-check" variableExpression="" variableSubstitutionActive="false">default</ivalue>
+                <ivalue classname="sessions.winconnect%.option.changeableurlonrdplogin" variableExpression="" variableSubstitutionActive="false">false</ivalue>
+                <ivalue classname="sessions.winconnect%.option.client-name" variableExpression="" variableSubstitutionActive="false"></ivalue>
+                <ivalue classname="sessions.winconnect%.option.client-name-fallback" variableExpression="" variableSubstitutionActive="false">default</ivalue>
+                <ivalue classname="sessions.winconnect%.option.color-depth" variableExpression="" variableSubstitutionActive="false">default</ivalue>
+                <ivalue classname="sessions.winconnect%.option.connection-timeout" variableExpression="" variableSubstitutionActive="false">30</ivalue>
+                <ivalue classname="sessions.winconnect%.option.crypt_password" variableExpression="" variableSubstitutionActive="false"></ivalue>
+                <ivalue classname="sessions.winconnect%.option.default-command" variableExpression="" variableSubstitutionActive="false"></ivalue>
+                <ivalue classname="sessions.winconnect%.option.default-domain" variableExpression="" variableSubstitutionActive="false"></ivalue>
+                <ivalue classname="sessions.winconnect%.option.default-user" variableExpression="" variableSubstitutionActive="false"></ivalue>
+                <ivalue classname="sessions.winconnect%.option.desktop-scale-factor" variableExpression="" variableSubstitutionActive="false">default</ivalue>
+                <ivalue classname="sessions.winconnect%.option.device-scale-factor" variableExpression="" variableSubstitutionActive="false">default</ivalue>
+                <ivalue classname="sessions.winconnect%.option.disable-cursor-set" variableExpression="" variableSubstitutionActive="false">default</ivalue>
+                <ivalue classname="sessions.winconnect%.option.disable-cursor-shadow" variableExpression="" variableSubstitutionActive="false">default</ivalue>
+                <ivalue classname="sessions.winconnect%.option.disable-menu-animation" variableExpression="" variableSubstitutionActive="false">default</ivalue>
+                <ivalue classname="sessions.winconnect%.option.disable-themes" variableExpression="" variableSubstitutionActive="false">default</ivalue>
+                <ivalue classname="sessions.winconnect%.option.disable-wallpaper" variableExpression="" variableSubstitutionActive="false">default</ivalue>
+                <ivalue classname="sessions.winconnect%.option.disable-window-drag" variableExpression="" variableSubstitutionActive="false">default</ivalue>
+                <ivalue classname="sessions.winconnect%.option.egfx-surface-to-surface-workaround" variableExpression="" variableSubstitutionActive="false">default</ivalue>
+                <ivalue classname="sessions.winconnect%.option.enable-clientcomm" variableExpression="" variableSubstitutionActive="false">default</ivalue>
+                <ivalue classname="sessions.winconnect%.option.enable-clientdrive" variableExpression="" variableSubstitutionActive="false">default</ivalue>
+                <ivalue classname="sessions.winconnect%.option.enable-clientprinter" variableExpression="" variableSubstitutionActive="false">default</ivalue>
+                <ivalue classname="sessions.winconnect%.option.enable-clipboard" variableExpression="" variableSubstitutionActive="false">default</ivalue>
+                <ivalue classname="sessions.winconnect%.option.enable-compression" variableExpression="" variableSubstitutionActive="false">default</ivalue>
+                <ivalue classname="sessions.winconnect%.option.enable-font-smoothing" variableExpression="" variableSubstitutionActive="false">default</ivalue>
+                <ivalue classname="sessions.winconnect%.option.enable-fullscreen-toggle" variableExpression="" variableSubstitutionActive="false">default</ivalue>
+                <ivalue classname="sessions.winconnect%.option.enable-gateway" variableExpression="" variableSubstitutionActive="false">default</ivalue>
+                <ivalue classname="sessions.winconnect%.option.enable-plugins" variableExpression="" variableSubstitutionActive="false">default</ivalue>
+                <ivalue classname="sessions.winconnect%.option.enable-remotefx" variableExpression="" variableSubstitutionActive="false">default</ivalue>
+                <ivalue classname="sessions.winconnect%.option.enable-smartcard" variableExpression="" variableSubstitutionActive="false">default</ivalue>
+                <ivalue classname="sessions.winconnect%.option.enable-sound" variableExpression="" variableSubstitutionActive="false">default</ivalue>
+                <ivalue classname="sessions.winconnect%.option.gateway-crypt_password" variableExpression="" variableSubstitutionActive="false"></ivalue>
+                <ivalue classname="sessions.winconnect%.option.gateway-domain" variableExpression="" variableSubstitutionActive="false"></ivalue>
+                <ivalue classname="sessions.winconnect%.option.gateway-url" variableExpression="" variableSubstitutionActive="false"></ivalue>
+                <ivalue classname="sessions.winconnect%.option.gateway-user" variableExpression="" variableSubstitutionActive="false"></ivalue>
+                <ivalue classname="sessions.winconnect%.option.genericusbredirection" variableExpression="" variableSubstitutionActive="false">default</ivalue>
+                <ivalue classname="sessions.winconnect%.option.grab-keyboard" variableExpression="" variableSubstitutionActive="false">default</ivalue>
+                <ivalue classname="sessions.winconnect%.option.keyboard" variableExpression="" variableSubstitutionActive="false">default</ivalue>
+                <ivalue classname="sessions.winconnect%.option.load-balance-info" variableExpression="" variableSubstitutionActive="false">tsv://&amp;ltRDS_Collection&amp;gt</ivalue>
+                <ivalue classname="sessions.winconnect%.option.other-gateway-credentials" variableExpression="" variableSubstitutionActive="false">false</ivalue>
+                <ivalue classname="sessions.winconnect%.option.passthrough" variableExpression="" variableSubstitutionActive="false">false</ivalue>
+                <ivalue classname="sessions.winconnect%.option.password" variableExpression="" variableSubstitutionActive="false"></ivalue>
+                <ivalue classname="sessions.winconnect%.option.rdp-port" variableExpression="" variableSubstitutionActive="false">3389</ivalue>
+                <ivalue classname="sessions.winconnect%.option.rdpeai.enable" variableExpression="" variableSubstitutionActive="false">default</ivalue>
+                <ivalue classname="sessions.winconnect%.option.remoteapplicationcmdline" variableExpression="" variableSubstitutionActive="false"></ivalue>
+                <ivalue classname="sessions.winconnect%.option.remoteapplicationmode" variableExpression="" variableSubstitutionActive="false">false</ivalue>
+                <ivalue classname="sessions.winconnect%.option.remotefx-ack" variableExpression="" variableSubstitutionActive="false">default</ivalue>
+                <ivalue classname="sessions.winconnect%.option.remotefx-cache-size" variableExpression="" variableSubstitutionActive="false">default</ivalue>
+                <ivalue classname="sessions.winconnect%.option.remotefx-mode" variableExpression="" variableSubstitutionActive="false">default</ivalue>
+                <ivalue classname="sessions.winconnect%.option.resolution" variableExpression="" variableSubstitutionActive="false">default</ivalue>
+                <ivalue classname="sessions.winconnect%.option.sizing" variableExpression="" variableSubstitutionActive="false">default</ivalue>
+                <ivalue classname="sessions.winconnect%.option.sound-channels" variableExpression="" variableSubstitutionActive="false">default</ivalue>
+                <ivalue classname="sessions.winconnect%.option.sound-compress" variableExpression="" variableSubstitutionActive="false">default</ivalue>
+                <ivalue classname="sessions.winconnect%.option.sound-quality" variableExpression="" variableSubstitutionActive="false">default</ivalue>
+                <ivalue classname="sessions.winconnect%.option.usemonitorfullscreen" variableExpression="" variableSubstitutionActive="false">default</ivalue>
+                <ivalue classname="sessions.winconnect%.option.video_redirection.enable" variableExpression="" variableSubstitutionActive="false">default</ivalue>
+                <ivalue classname="sessions.winconnect%.option.video_redirection.evor_enable" variableExpression="" variableSubstitutionActive="false">default</ivalue>
+                <ivalue classname="sessions.winconnect%.option.xineramamonitor" variableExpression="" variableSubstitutionActive="false"></ivalue>
+                <ivalue classname="sessions.winconnect%.position" variableExpression="" variableSubstitutionActive="false">0</ivalue>
+                <ivalue classname="sessions.winconnect%.pulldown" variableExpression="" variableSubstitutionActive="false">false</ivalue>
+                <ivalue classname="sessions.winconnect%.pwprotected" variableExpression="" variableSubstitutionActive="false">none</ivalue>
+                <ivalue classname="sessions.winconnect%.quick_start" variableExpression="" variableSubstitutionActive="false">false</ivalue>
+                <ivalue classname="sessions.winconnect%.restart" variableExpression="" variableSubstitutionActive="false">false</ivalue>
+                <ivalue classname="sessions.winconnect%.scardautostart" variableExpression="" variableSubstitutionActive="false">false</ivalue>
+                <ivalue classname="sessions.winconnect%.snotify" variableExpression="" variableSubstitutionActive="false">true</ivalue>
+                <ivalue classname="sessions.winconnect%.startmenu" variableExpression="" variableSubstitutionActive="false">true</ivalue>
+                <ivalue classname="sessions.winconnect%.startmenu_system" variableExpression="" variableSubstitutionActive="false">false</ivalue>
+                <ivalue classname="sessions.winconnect%.usehotkey" variableExpression="" variableSubstitutionActive="false">false</ivalue>
+                <ivalue classname="sessions.winconnect%.waitfornetwork" variableExpression="" variableSubstitutionActive="false">true</ivalue>
+                <ivalue classname="sessions.winconnect%.waittime2autostart" variableExpression="" variableSubstitutionActive="false">0</ivalue>
+                <ivalue classname="sessions.winconnect%.waittime2restart" variableExpression="" variableSubstitutionActive="false">0</ivalue>
+            </instance>
+        </instancesettings>
+    </profile>
+</profiles>
