@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<profiles>
+    <profile>
+        <profile_id>389</profile_id>
+        <profilename>Disable IPV6</profilename>
+        <firmware>
+            <model>IGEL UD Pocket</model>
+            <version>10.04.100.01</version>
+        </firmware>
+        <description>Disables IPV6 on endpoint</description>
+        <overwritesessions>false</overwritesessions>
+        <is_master_profile>false</is_master_profile>
+        <settings>
+            <pclass name="userinterface.rccustom.custom_cmd_0">
+                <pvalue instancenr="-1" variableExpression="" variableSubstitutionActive="false">echo "1" &amp;gt /proc/sys/net/ipv6/conf/all/disable_ipv6
+echo "1" &amp;gt /proc/sys/net/ipv6/conf/default/disable_ipv6
+echo "1" &amp;gt /proc/sys/net/ipv6/conf/lo/disable_ipv6
+echo "1" &amp;gt /proc/sys/net/ipv6/conf/eth0/disable_ipv6</pvalue>
+                <variableSubstitutionActive>false</variableSubstitutionActive>
+            </pclass>
+        </settings>
+        <instancesettings/>
+    </profile>
+</profiles>
