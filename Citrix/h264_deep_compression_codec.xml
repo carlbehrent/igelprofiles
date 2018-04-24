@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<profiles>
+    <profile>
+        <profile_id>50512</profile_id>
+        <profilename>H.264 deep compression codec</profilename>
+        <firmware>
+            <model>IGEL UD Pocket</model>
+            <version>10.03.550.01</version>
+        </firmware>
+        <description>Enables H.264 deep compression codec (requires additional license)</description>
+        <overwritesessions>false</overwritesessions>
+        <is_master_profile>false</is_master_profile>
+        <settings>
+            <pclass name="ica.wfclient.codec">
+                <pvalue instancenr="-1" variableExpression="" variableSubstitutionActive="false">h264</pvalue>
+                <variableSubstitutionActive>false</variableSubstitutionActive>
+            </pclass>
+            <pclass name="ica.hw-accelerated-h264-codec">
+                <pvalue instancenr="-1" variableExpression="" variableSubstitutionActive="false">true</pvalue>
+                <variableSubstitutionActive>false</variableSubstitutionActive>
+            </pclass>
+        </settings>
+        <instancesettings/>
+    </profile>
+</profiles>
