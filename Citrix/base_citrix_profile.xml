@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<profiles>
+    <profile>
+        <profile_id>75900</profile_id>
+        <profilename>Base Citrix Profile</profilename>
+        <firmware>
+            <model>IGEL UD Pocket</model>
+            <version>10.04.100.01</version>
+        </firmware>
+        <description>Sets Citrix Receiver Version and set Connection Bar</description>
+        <overwritesessions>false</overwritesessions>
+        <is_master_profile>false</is_master_profile>
+        <settings>
+            <pclass name="ica.activeversion">
+                <pvalue instancenr="-1" variableExpression="" variableSubstitutionActive="false">13.7.0</pvalue>
+                <variableSubstitutionActive>false</variableSubstitutionActive>
+            </pclass>
+            <pclass name="userinterface.rccustom.custom_cmd_x11_final">
+                <pvalue instancenr="-1" variableExpression="" variableSubstitutionActive="false">sed -i -e 's/^;connectionbar/ConnectionBar/i' /services/ica/ICAClient/config/All_Regions.ini</pvalue>
+                <variableSubstitutionActive>false</variableSubstitutionActive>
+            </pclass>
+        </settings>
+        <instancesettings/>
+    </profile>
+</profiles>
