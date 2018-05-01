@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<profiles>
+    <profile>
+        <profile_id>78289</profile_id>
+        <profilename>Remove Toolbar in Application Mode</profilename>
+        <firmware>
+            <model>IGEL UD Pocket</model>
+            <version>10.04.100.01</version>
+        </firmware>
+        <description>Removes the dropdown toolbar in Application Mode</description>
+        <overwritesessions>false</overwritesessions>
+        <is_master_profile>false</is_master_profile>
+        <settings>
+            <pclass name="userinterface.igel_toolbar.show_always_in_appliance_mode">
+                <pvalue instancenr="-1" variableExpression="" variableSubstitutionActive="false">false</pvalue>
+                <variableSubstitutionActive>false</variableSubstitutionActive>
+            </pclass>
+        </settings>
+        <instancesettings/>
+    </profile>
+</profiles>
