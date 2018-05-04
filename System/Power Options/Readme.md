@@ -1,1 +1,1 @@
-power_management_high.xml - No System Suspend on inactivity, Sets CPU Power Plan to High
+No System Suspend on inactivity, Sets CPU Power Plan to High - power_management_high.xml
