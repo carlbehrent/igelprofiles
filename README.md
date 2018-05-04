@@ -3,7 +3,8 @@ Repository for custom IGEL profiles to share amongst other IGEL community member
 Feel free to contact me if you want to contribute to the collection. <br />
 
 #### Updated 4th May 2018 <br />
-- Systems > Power Options > power_management_high.xml <br />
+- Systems > Power Options - power_management_high.xml <br />
+- Network > LAN Interfaces > Interface 1 > Wake On Lan - enable_wake-on-lan.xml
 
 #### Updated 2nd May 2018 <br />
 - Sessions > Application Mode - remove_toolbar_application_mode.xml <br />
