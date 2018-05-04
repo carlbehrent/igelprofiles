@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<profiles>
+    <profile>
+        <profile_id>78925</profile_id>
+        <profilename> Wake On LAN</profilename>
+        <firmware>
+            <model>IGEL UD Pocket</model>
+            <version>10.04.100.01</version>
+        </firmware>
+        <description>Enables Wake-on-LAN (Magic Packet, Broadcast Message)</description>
+        <overwritesessions>false</overwritesessions>
+        <is_master_profile>false</is_master_profile>
+        <settings>
+            <pclass name="network.interfaces.ethernet.device%.wol.wake_mcast">
+                <pvalue instancenr="0" variableExpression="" variableSubstitutionActive="false">false</pvalue>
+                <variableSubstitutionActive>false</variableSubstitutionActive>
+            </pclass>
+            <pclass name="network.interfaces.ethernet.device%.wol.wake_magic">
+                <pvalue instancenr="0" variableExpression="" variableSubstitutionActive="false">true</pvalue>
+                <variableSubstitutionActive>false</variableSubstitutionActive>
+            </pclass>
+            <pclass name="network.interfaces.ethernet.device%.wol.wake_bcast">
+                <pvalue instancenr="0" variableExpression="" variableSubstitutionActive="false">true</pvalue>
+                <variableSubstitutionActive>false</variableSubstitutionActive>
+            </pclass>
+        </settings>
+        <instancesettings/>
+    </profile>
+</profiles>
