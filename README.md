@@ -4,6 +4,7 @@ Feel free to contact me if you want to contribute to the collection. <br />
 
 #### Updated 16th May 2018 <br />
 - Sessions > Citrix XenDesktop/XenApp > HDX/ICA Global > Unified Communications > Skype for Business - enable_skype_HDX.xml <br />
+- Accessories > Display Switch > Options - dual_monitors_span_display.xml
 
 #### Updated 4th May 2018 <br />
 - Systems > Power Options - power_management_high.xml <br />
