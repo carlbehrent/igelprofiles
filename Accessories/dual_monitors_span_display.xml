@@ -1,0 +1,233 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<profiles>
+    <profile>
+        <profile_id>82303</profile_id>
+        <profilename> Desktop Display - Span All Monitors</profilename>
+        <firmware>
+            <model>IGEL Universal Desktop OS 3</model>
+            <version>10.04.100.01</version>
+        </firmware>
+        <description>Remember Display Settings, Extend to Left (Off), Extend to Right (On)</description>
+        <overwritesessions>false</overwritesessions>
+        <is_master_profile>false</is_master_profile>
+        <settings>
+            <pclass name="x.xserver%.screen5.frequency">
+                <pvalue instancenr="0" variableExpression="" variableSubstitutionActive="false">60</pvalue>
+                <variableSubstitutionActive>false</variableSubstitutionActive>
+            </pclass>
+            <pclass name="x.xserver%.screen7.connector">
+                <pvalue instancenr="0" variableExpression="" variableSubstitutionActive="false">default</pvalue>
+                <variableSubstitutionActive>false</variableSubstitutionActive>
+            </pclass>
+            <pclass name="sessions.user_display%.options.show_extend_right">
+                <pvalue instancenr="0" variableExpression="" variableSubstitutionActive="false">true</pvalue>
+                <variableSubstitutionActive>false</variableSubstitutionActive>
+            </pclass>
+            <pclass name="x.xserver%.pos_x">
+                <pvalue instancenr="0" variableExpression="" variableSubstitutionActive="false">0</pvalue>
+                <variableSubstitutionActive>false</variableSubstitutionActive>
+            </pclass>
+            <pclass name="x.xserver%.screen2.rotation">
+                <pvalue instancenr="0" variableExpression="" variableSubstitutionActive="false">XX</pvalue>
+                <variableSubstitutionActive>false</variableSubstitutionActive>
+            </pclass>
+            <pclass name="x.xserver%.screen5.rotation">
+                <pvalue instancenr="0" variableExpression="" variableSubstitutionActive="false">XX</pvalue>
+                <variableSubstitutionActive>false</variableSubstitutionActive>
+            </pclass>
+            <pclass name="x.xserver%.screen2.resolution">
+                <pvalue instancenr="0" variableExpression="" variableSubstitutionActive="false">1024x768</pvalue>
+                <variableSubstitutionActive>false</variableSubstitutionActive>
+            </pclass>
+            <pclass name="x.xserver%.screen2.frequency">
+                <pvalue instancenr="0" variableExpression="" variableSubstitutionActive="false">60</pvalue>
+                <variableSubstitutionActive>false</variableSubstitutionActive>
+            </pclass>
+            <pclass name="x.xserver%.screen3.connector">
+                <pvalue instancenr="0" variableExpression="" variableSubstitutionActive="false">default</pvalue>
+                <variableSubstitutionActive>false</variableSubstitutionActive>
+            </pclass>
+            <pclass name="x.xserver%.screen3.pos_y">
+                <pvalue instancenr="0" variableExpression="" variableSubstitutionActive="false">0</pvalue>
+                <variableSubstitutionActive>false</variableSubstitutionActive>
+            </pclass>
+            <pclass name="x.xserver%.screen3.pos_x">
+                <pvalue instancenr="0" variableExpression="" variableSubstitutionActive="false">0</pvalue>
+                <variableSubstitutionActive>false</variableSubstitutionActive>
+            </pclass>
+            <pclass name="sessions.user_display%.options.preserve_settings">
+                <pvalue instancenr="0" variableExpression="" variableSubstitutionActive="false">true</pvalue>
+                <variableSubstitutionActive>false</variableSubstitutionActive>
+            </pclass>
+            <pclass name="sessions.user_display%.options.dialog_type">
+                <pvalue instancenr="0" variableExpression="" variableSubstitutionActive="false">minimal</pvalue>
+                <variableSubstitutionActive>false</variableSubstitutionActive>
+            </pclass>
+            <pclass name="x.xserver%.screen6.pos_x">
+                <pvalue instancenr="0" variableExpression="" variableSubstitutionActive="false">0</pvalue>
+                <variableSubstitutionActive>false</variableSubstitutionActive>
+            </pclass>
+            <pclass name="x.xserver%.screen6.resolution">
+                <pvalue instancenr="0" variableExpression="" variableSubstitutionActive="false">1024x768</pvalue>
+                <variableSubstitutionActive>false</variableSubstitutionActive>
+            </pclass>
+            <pclass name="x.xserver%.screen6.frequency">
+                <pvalue instancenr="0" variableExpression="" variableSubstitutionActive="false">60</pvalue>
+                <variableSubstitutionActive>false</variableSubstitutionActive>
+            </pclass>
+            <pclass name="x.xserver%.screen6.pos_y">
+                <pvalue instancenr="0" variableExpression="" variableSubstitutionActive="false">0</pvalue>
+                <variableSubstitutionActive>false</variableSubstitutionActive>
+            </pclass>
+            <pclass name="x.xserver%.screen3.resolution">
+                <pvalue instancenr="0" variableExpression="" variableSubstitutionActive="false">1024x768</pvalue>
+                <variableSubstitutionActive>false</variableSubstitutionActive>
+            </pclass>
+            <pclass name="sessions.user_display%.options.show_mirror">
+                <pvalue instancenr="0" variableExpression="" variableSubstitutionActive="false">false</pvalue>
+                <variableSubstitutionActive>false</variableSubstitutionActive>
+            </pclass>
+            <pclass name="x.xserver%.screen6.connector">
+                <pvalue instancenr="0" variableExpression="" variableSubstitutionActive="false">default</pvalue>
+                <variableSubstitutionActive>false</variableSubstitutionActive>
+            </pclass>
+            <pclass name="x.xserver%.pos_y">
+                <pvalue instancenr="0" variableExpression="" variableSubstitutionActive="false">0</pvalue>
+                <variableSubstitutionActive>false</variableSubstitutionActive>
+            </pclass>
+            <pclass name="x.xserver%.screen5.resolution">
+                <pvalue instancenr="0" variableExpression="" variableSubstitutionActive="false">1024x768</pvalue>
+                <variableSubstitutionActive>false</variableSubstitutionActive>
+            </pclass>
+            <pclass name="x.xserver%.screen2.connector">
+                <pvalue instancenr="0" variableExpression="" variableSubstitutionActive="false">default</pvalue>
+                <variableSubstitutionActive>false</variableSubstitutionActive>
+            </pclass>
+            <pclass name="x.xserver%.screen2.pos_x">
+                <pvalue instancenr="0" variableExpression="" variableSubstitutionActive="false">0</pvalue>
+                <variableSubstitutionActive>false</variableSubstitutionActive>
+            </pclass>
+            <pclass name="x.xserver%.screen2.pos_y">
+                <pvalue instancenr="0" variableExpression="" variableSubstitutionActive="false">0</pvalue>
+                <variableSubstitutionActive>false</variableSubstitutionActive>
+            </pclass>
+            <pclass name="x.xserver%.number_of_screens">
+                <pvalue instancenr="0" variableExpression="" variableSubstitutionActive="false">2</pvalue>
+                <variableSubstitutionActive>false</variableSubstitutionActive>
+            </pclass>
+            <pclass name="x.xserver%.screen4.resolution">
+                <pvalue instancenr="0" variableExpression="" variableSubstitutionActive="false">1024x768</pvalue>
+                <variableSubstitutionActive>false</variableSubstitutionActive>
+            </pclass>
+            <pclass name="x.xserver%.screen6.rotation">
+                <pvalue instancenr="0" variableExpression="" variableSubstitutionActive="false">XX</pvalue>
+                <variableSubstitutionActive>false</variableSubstitutionActive>
+            </pclass>
+            <pclass name="x.xserver%.screen1.resolution">
+                <pvalue instancenr="0" variableExpression="" variableSubstitutionActive="false">0x0</pvalue>
+                <variableSubstitutionActive>false</variableSubstitutionActive>
+            </pclass>
+            <pclass name="x.xserver%.screen3.frequency">
+                <pvalue instancenr="0" variableExpression="" variableSubstitutionActive="false">60</pvalue>
+                <variableSubstitutionActive>false</variableSubstitutionActive>
+            </pclass>
+            <pclass name="x.xserver%.screen1.rotation">
+                <pvalue instancenr="0" variableExpression="" variableSubstitutionActive="false">XX</pvalue>
+                <variableSubstitutionActive>false</variableSubstitutionActive>
+            </pclass>
+            <pclass name="x.xserver%.rotation">
+                <pvalue instancenr="0" variableExpression="" variableSubstitutionActive="false">XX</pvalue>
+                <variableSubstitutionActive>false</variableSubstitutionActive>
+            </pclass>
+            <pclass name="x.xserver%.screen5.connector">
+                <pvalue instancenr="0" variableExpression="" variableSubstitutionActive="false">default</pvalue>
+                <variableSubstitutionActive>false</variableSubstitutionActive>
+            </pclass>
+            <pclass name="x.xserver%.screen4.rotation">
+                <pvalue instancenr="0" variableExpression="" variableSubstitutionActive="false">XX</pvalue>
+                <variableSubstitutionActive>false</variableSubstitutionActive>
+            </pclass>
+            <pclass name="x.xserver%.screen7.resolution">
+                <pvalue instancenr="0" variableExpression="" variableSubstitutionActive="false">1024x768</pvalue>
+                <variableSubstitutionActive>false</variableSubstitutionActive>
+            </pclass>
+            <pclass name="x.xserver%.screen5.pos_x">
+                <pvalue instancenr="0" variableExpression="" variableSubstitutionActive="false">0</pvalue>
+                <variableSubstitutionActive>false</variableSubstitutionActive>
+            </pclass>
+            <pclass name="x.xserver%.screen5.pos_y">
+                <pvalue instancenr="0" variableExpression="" variableSubstitutionActive="false">0</pvalue>
+                <variableSubstitutionActive>false</variableSubstitutionActive>
+            </pclass>
+            <pclass name="x.xserver%.resolution">
+                <pvalue instancenr="0" variableExpression="" variableSubstitutionActive="false">0x0</pvalue>
+                <variableSubstitutionActive>false</variableSubstitutionActive>
+            </pclass>
+            <pclass name="sessions.user_display%.options.show_extend_left">
+                <pvalue instancenr="0" variableExpression="" variableSubstitutionActive="false">false</pvalue>
+                <variableSubstitutionActive>false</variableSubstitutionActive>
+            </pclass>
+            <pclass name="x.xserver%.screen7.frequency">
+                <pvalue instancenr="0" variableExpression="" variableSubstitutionActive="false">60</pvalue>
+                <variableSubstitutionActive>false</variableSubstitutionActive>
+            </pclass>
+            <pclass name="x.xserver%.screen7.rotation">
+                <pvalue instancenr="0" variableExpression="" variableSubstitutionActive="false">XX</pvalue>
+                <variableSubstitutionActive>false</variableSubstitutionActive>
+            </pclass>
+            <pclass name="x.xserver%.screen3.rotation">
+                <pvalue instancenr="0" variableExpression="" variableSubstitutionActive="false">XX</pvalue>
+                <variableSubstitutionActive>false</variableSubstitutionActive>
+            </pclass>
+            <pclass name="x.xserver%.frequency">
+                <pvalue instancenr="0" variableExpression="" variableSubstitutionActive="false">60</pvalue>
+                <variableSubstitutionActive>false</variableSubstitutionActive>
+            </pclass>
+            <pclass name="x.xserver%.screen1.connector">
+                <pvalue instancenr="0" variableExpression="" variableSubstitutionActive="false">default</pvalue>
+                <variableSubstitutionActive>false</variableSubstitutionActive>
+            </pclass>
+            <pclass name="x.xserver%.screen1.pos_y">
+                <pvalue instancenr="0" variableExpression="" variableSubstitutionActive="false">0</pvalue>
+                <variableSubstitutionActive>false</variableSubstitutionActive>
+            </pclass>
+            <pclass name="x.xserver%.screen4.frequency">
+                <pvalue instancenr="0" variableExpression="" variableSubstitutionActive="false">60</pvalue>
+                <variableSubstitutionActive>false</variableSubstitutionActive>
+            </pclass>
+            <pclass name="x.xserver%.screen1.pos_x">
+                <pvalue instancenr="0" variableExpression="" variableSubstitutionActive="false">1024</pvalue>
+                <variableSubstitutionActive>false</variableSubstitutionActive>
+            </pclass>
+            <pclass name="x.xserver%.connector">
+                <pvalue instancenr="0" variableExpression="" variableSubstitutionActive="false">default</pvalue>
+                <variableSubstitutionActive>false</variableSubstitutionActive>
+            </pclass>
+            <pclass name="x.xserver%.screen4.connector">
+                <pvalue instancenr="0" variableExpression="" variableSubstitutionActive="false">default</pvalue>
+                <variableSubstitutionActive>false</variableSubstitutionActive>
+            </pclass>
+            <pclass name="x.xserver%.screen1.frequency">
+                <pvalue instancenr="0" variableExpression="" variableSubstitutionActive="false">60</pvalue>
+                <variableSubstitutionActive>false</variableSubstitutionActive>
+            </pclass>
+            <pclass name="x.xserver%.screen4.pos_y">
+                <pvalue instancenr="0" variableExpression="" variableSubstitutionActive="false">0</pvalue>
+                <variableSubstitutionActive>false</variableSubstitutionActive>
+            </pclass>
+            <pclass name="x.xserver%.screen4.pos_x">
+                <pvalue instancenr="0" variableExpression="" variableSubstitutionActive="false">0</pvalue>
+                <variableSubstitutionActive>false</variableSubstitutionActive>
+            </pclass>
+            <pclass name="x.xserver%.screen7.pos_x">
+                <pvalue instancenr="0" variableExpression="" variableSubstitutionActive="false">0</pvalue>
+                <variableSubstitutionActive>false</variableSubstitutionActive>
+            </pclass>
+            <pclass name="x.xserver%.screen7.pos_y">
+                <pvalue instancenr="0" variableExpression="" variableSubstitutionActive="false">0</pvalue>
+                <variableSubstitutionActive>false</variableSubstitutionActive>
+            </pclass>
+        </settings>
+        <instancesettings/>
+    </profile>
+</profiles>
