@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<profiles>
+    <profile>
+        <profile_id>80996</profile_id>
+        <profilename>Skype for Business (HDX Realtime Media Engine)</profilename>
+        <firmware>
+            <model>IGEL Universal Desktop OS 3</model>
+            <version>10.04.100.01</version>
+        </firmware>
+        <description>Enable HDX Realtime Media Engine for Skype - Citrix XenDesktop/XenApp</description>
+        <overwritesessions>false</overwritesessions>
+        <is_master_profile>false</is_master_profile>
+        <settings>
+            <pclass name="ica.module.virtualdriver.hdxrtme.enable">
+                <pvalue instancenr="-1" variableExpression="" variableSubstitutionActive="false">true</pvalue>
+                <variableSubstitutionActive>false</variableSubstitutionActive>
+            </pclass>
+        </settings>
+        <instancesettings/>
+    </profile>
+</profiles>
