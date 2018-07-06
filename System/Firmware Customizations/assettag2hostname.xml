@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<profiles>
+    <profile>
+        <profile_id>11504</profile_id>
+        <profilename>Asset Tag to Hostname</profilename>
+        <firmware>
+            <model>IGEL UD Pocket</model>
+            <version>10.02.120.01</version>
+        </firmware>
+        <description></description>
+        <overwritesessions>false</overwritesessions>
+        <is_master_profile>false</is_master_profile>
+        <settings>
+            <pclass name="userinterface.rccustom.custom_cmd_0">
+                <pvalue instancenr="-1" variableExpression="" variableSubstitutionActive="false">#!/bin/bash
+RENAMEVAR=$(dmidecode -t Chassis | grep -i "Asset" | cut -c 12-)
+HOSTNAME=$(hostname)
+if &amp;lb "$RENAMEVAR" != "$HOSTNAME" &amp;rb
+then
+setparam network.dns.hostname $RENAMEVAR
+killall postsetupd
+write_rmsettings
+fi</pvalue>
+                <variableSubstitutionActive>false</variableSubstitutionActive>
+            </pclass>
+        </settings>
+        <instancesettings/>
+    </profile>
+</profiles>
