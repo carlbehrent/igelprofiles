@@ -3,7 +3,7 @@ Repository for custom IGEL profiles to share amongst other IGEL community member
 Feel free to contact me if you want to contribute to the collection. <br />
 
 #### Updated 7th July 2018 <br />
-- Systems > Firmware Customizations - assettag2hostname.xml (Thanks Falk Heiland) <br />
+- Systems > Firmware Customizations - assettag2hostname.xml (Thanks Falk Heiland - IGEL Community) <br />
 
 #### Updated 30th June 2018 <br />
 - Systems > Firmware Customizations - Disable Unused OS Features.xml <br />
