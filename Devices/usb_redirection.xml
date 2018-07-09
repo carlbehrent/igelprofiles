@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<profiles>
+    <profile>
+        <profile_id>3682</profile_id>
+        <profilename>TDHB USB Redirection</profilename>
+        <firmware>
+            <model>IGEL Universal Desktop OS 3</model>
+            <version>10.04.100.01</version>
+        </firmware>
+        <description></description>
+        <overwritesessions>false</overwritesessions>
+        <is_master_profile>false</is_master_profile>
+        <settings>
+            <pclass name="devices.hotplug.usbaccess.enabled">
+                <pvalue instancenr="-1" variableExpression="" variableSubstitutionActive="false">true</pvalue>
+                <variableSubstitutionActive>false</variableSubstitutionActive>
+            </pclass>
+            <pclass name="ica.module.virtualdriver.genericusb.enable">
+                <pvalue instancenr="-1" variableExpression="" variableSubstitutionActive="false">true</pvalue>
+                <variableSubstitutionActive>false</variableSubstitutionActive>
+            </pclass>
+            <pclass name="devices.autofs.dcdm_enable">
+                <pvalue instancenr="-1" variableExpression="" variableSubstitutionActive="false">true</pvalue>
+                <variableSubstitutionActive>false</variableSubstitutionActive>
+            </pclass>
+            <pclass name="devices.hotplug.usb-storage.messageconfig.beep">
+                <pvalue instancenr="-1" variableExpression="" variableSubstitutionActive="false">false</pvalue>
+                <variableSubstitutionActive>false</variableSubstitutionActive>
+            </pclass>
+            <pclass name="devices.autofs.default_permission">
+                <pvalue instancenr="-1" variableExpression="" variableSubstitutionActive="false">rw</pvalue>
+                <variableSubstitutionActive>false</variableSubstitutionActive>
+            </pclass>
+            <pclass name="devices.hotplug.usbaccess.devicepolicy.default_rule">
+                <pvalue instancenr="-1" variableExpression="" variableSubstitutionActive="false">allow</pvalue>
+                <variableSubstitutionActive>false</variableSubstitutionActive>
+            </pclass>
+            <pclass name="ica.usbredirection.devicepolicy.default_rule">
+                <pvalue instancenr="-1" variableExpression="" variableSubstitutionActive="false">allow</pvalue>
+                <variableSubstitutionActive>false</variableSubstitutionActive>
+            </pclass>
+            <pclass name="devices.hotplug.usb-storage.messageconfig.showmessages">
+                <pvalue instancenr="-1" variableExpression="" variableSubstitutionActive="false">false</pvalue>
+                <variableSubstitutionActive>false</variableSubstitutionActive>
+            </pclass>
+        </settings>
+        <instancesettings>
+            <instance classprefix="ica.usbredirection.devicepolicy.product_rule%" serialnumber="-70199e7:15e5f7cad9f:-7fff10.218.232.162">
+                <ivalue classname="ica.usbredirection.devicepolicy.product_rule%.name" variableExpression="" variableSubstitutionActive="false">Symbol LS2208 Barcode Scanner </ivalue>
+                <ivalue classname="ica.usbredirection.devicepolicy.product_rule%.product" variableExpression="" variableSubstitutionActive="false">4E04</ivalue>
+                <ivalue classname="ica.usbredirection.devicepolicy.product_rule%.release" variableExpression="" variableSubstitutionActive="false"></ivalue>
+                <ivalue classname="ica.usbredirection.devicepolicy.product_rule%.rule" variableExpression="" variableSubstitutionActive="false">allow</ivalue>
+                <ivalue classname="ica.usbredirection.devicepolicy.product_rule%.vendor" variableExpression="" variableSubstitutionActive="false">0461</ivalue>
+            </instance>
+            <instance classprefix="ica.usbredirection.devicepolicy.class_rule%" serialnumber="2390e6b7:15e91aac09a:-7ff810.218.232.162">
+                <ivalue classname="ica.usbredirection.devicepolicy.class_rule%.01__protocol" variableExpression="" variableSubstitutionActive="false"></ivalue>
+                <ivalue classname="ica.usbredirection.devicepolicy.class_rule%.01_subclass" variableExpression="" variableSubstitutionActive="false"></ivalue>
+                <ivalue classname="ica.usbredirection.devicepolicy.class_rule%.02__protocol" variableExpression="" variableSubstitutionActive="false"></ivalue>
+                <ivalue classname="ica.usbredirection.devicepolicy.class_rule%.02_subclass" variableExpression="" variableSubstitutionActive="false"></ivalue>
+                <ivalue classname="ica.usbredirection.devicepolicy.class_rule%.03__protocol" variableExpression="" variableSubstitutionActive="false"></ivalue>
+                <ivalue classname="ica.usbredirection.devicepolicy.class_rule%.03_subclass" variableExpression="" variableSubstitutionActive="false"></ivalue>
+                <ivalue classname="ica.usbredirection.devicepolicy.class_rule%.05__protocol" variableExpression="" variableSubstitutionActive="false"></ivalue>
+                <ivalue classname="ica.usbredirection.devicepolicy.class_rule%.05_subclass" variableExpression="" variableSubstitutionActive="false"></ivalue>
+                <ivalue classname="ica.usbredirection.devicepolicy.class_rule%.06__protocol" variableExpression="" variableSubstitutionActive="false"></ivalue>
+                <ivalue classname="ica.usbredirection.devicepolicy.class_rule%.06_subclass" variableExpression="" variableSubstitutionActive="false"></ivalue>
+                <ivalue classname="ica.usbredirection.devicepolicy.class_rule%.07__protocol" variableExpression="" variableSubstitutionActive="false"></ivalue>
+                <ivalue classname="ica.usbredirection.devicepolicy.class_rule%.07_subclass" variableExpression="" variableSubstitutionActive="false"></ivalue>
+                <ivalue classname="ica.usbredirection.devicepolicy.class_rule%.08__protocol" variableExpression="" variableSubstitutionActive="false"></ivalue>
+                <ivalue classname="ica.usbredirection.devicepolicy.class_rule%.08_subclass" variableExpression="" variableSubstitutionActive="false"></ivalue>
+                <ivalue classname="ica.usbredirection.devicepolicy.class_rule%.09__protocol" variableExpression="" variableSubstitutionActive="false"></ivalue>
+                <ivalue classname="ica.usbredirection.devicepolicy.class_rule%.09_subclass" variableExpression="" variableSubstitutionActive="false"></ivalue>
+                <ivalue classname="ica.usbredirection.devicepolicy.class_rule%.0a__protocol" variableExpression="" variableSubstitutionActive="false"></ivalue>
+                <ivalue classname="ica.usbredirection.devicepolicy.class_rule%.0a_subclass" variableExpression="" variableSubstitutionActive="false"></ivalue>
+                <ivalue classname="ica.usbredirection.devicepolicy.class_rule%.0b__protocol" variableExpression="" variableSubstitutionActive="false"></ivalue>
+                <ivalue classname="ica.usbredirection.devicepolicy.class_rule%.0b_subclass" variableExpression="" variableSubstitutionActive="false">00</ivalue>
+                <ivalue classname="ica.usbredirection.devicepolicy.class_rule%.0d__protocol" variableExpression="" variableSubstitutionActive="false"></ivalue>
+                <ivalue classname="ica.usbredirection.devicepolicy.class_rule%.0d_subclass" variableExpression="" variableSubstitutionActive="false"></ivalue>
+                <ivalue classname="ica.usbredirection.devicepolicy.class_rule%.0e__protocol" variableExpression="" variableSubstitutionActive="false"></ivalue>
+                <ivalue classname="ica.usbredirection.devicepolicy.class_rule%.0e_subclass" variableExpression="" variableSubstitutionActive="false"></ivalue>
+                <ivalue classname="ica.usbredirection.devicepolicy.class_rule%.0f__protocol" variableExpression="" variableSubstitutionActive="false"></ivalue>
+                <ivalue classname="ica.usbredirection.devicepolicy.class_rule%.0f_subclass" variableExpression="" variableSubstitutionActive="false"></ivalue>
+                <ivalue classname="ica.usbredirection.devicepolicy.class_rule%.class" variableExpression="" variableSubstitutionActive="false">03</ivalue>
+                <ivalue classname="ica.usbredirection.devicepolicy.class_rule%.e0_01_protocol" variableExpression="" variableSubstitutionActive="false"></ivalue>
+                <ivalue classname="ica.usbredirection.devicepolicy.class_rule%.e0_02_protocol" variableExpression="" variableSubstitutionActive="false"></ivalue>
+                <ivalue classname="ica.usbredirection.devicepolicy.class_rule%.e0_subclass" variableExpression="" variableSubstitutionActive="false"></ivalue>
+                <ivalue classname="ica.usbredirection.devicepolicy.class_rule%.ef_01_protocol" variableExpression="" variableSubstitutionActive="false"></ivalue>
+                <ivalue classname="ica.usbredirection.devicepolicy.class_rule%.ef_02_protocol" variableExpression="" variableSubstitutionActive="false"></ivalue>
+                <ivalue classname="ica.usbredirection.devicepolicy.class_rule%.ef_03_protocol" variableExpression="" variableSubstitutionActive="false"></ivalue>
+                <ivalue classname="ica.usbredirection.devicepolicy.class_rule%.ef_subclass" variableExpression="" variableSubstitutionActive="false"></ivalue>
+                <ivalue classname="ica.usbredirection.devicepolicy.class_rule%.fe_01_protocol" variableExpression="" variableSubstitutionActive="false"></ivalue>
+                <ivalue classname="ica.usbredirection.devicepolicy.class_rule%.fe_02_protocol" variableExpression="" variableSubstitutionActive="false"></ivalue>
+                <ivalue classname="ica.usbredirection.devicepolicy.class_rule%.fe_03_protocol" variableExpression="" variableSubstitutionActive="false"></ivalue>
+                <ivalue classname="ica.usbredirection.devicepolicy.class_rule%.fe_subclass" variableExpression="" variableSubstitutionActive="false"></ivalue>
+                <ivalue classname="ica.usbredirection.devicepolicy.class_rule%.ff__protocol" variableExpression="" variableSubstitutionActive="false"></ivalue>
+                <ivalue classname="ica.usbredirection.devicepolicy.class_rule%.ff_subclass" variableExpression="" variableSubstitutionActive="false"></ivalue>
+                <ivalue classname="ica.usbredirection.devicepolicy.class_rule%.name" variableExpression="" variableSubstitutionActive="false">Policy Rule</ivalue>
+                <ivalue classname="ica.usbredirection.devicepolicy.class_rule%.rule" variableExpression="" variableSubstitutionActive="false">allow</ivalue>
+            </instance>
+            <instance classprefix="ica.usbredirection.devicepolicy.product_rule%" serialnumber="1cca3121:15ec097ff62:-800010.218.232.162">
+                <ivalue classname="ica.usbredirection.devicepolicy.product_rule%.name" variableExpression="" variableSubstitutionActive="false">VEC Footpedal</ivalue>
+                <ivalue classname="ica.usbredirection.devicepolicy.product_rule%.product" variableExpression="" variableSubstitutionActive="false">00ff</ivalue>
+                <ivalue classname="ica.usbredirection.devicepolicy.product_rule%.release" variableExpression="" variableSubstitutionActive="false"></ivalue>
+                <ivalue classname="ica.usbredirection.devicepolicy.product_rule%.rule" variableExpression="" variableSubstitutionActive="false">allow</ivalue>
+                <ivalue classname="ica.usbredirection.devicepolicy.product_rule%.vendor" variableExpression="" variableSubstitutionActive="false">05f3</ivalue>
+            </instance>
+            <instance classprefix="ica.usbredirection.devicepolicy.product_rule%" serialnumber="1cca3121:15ec097ff62:-7fff10.218.232.162">
+                <ivalue classname="ica.usbredirection.devicepolicy.product_rule%.name" variableExpression="" variableSubstitutionActive="false">iPhone</ivalue>
+                <ivalue classname="ica.usbredirection.devicepolicy.product_rule%.product" variableExpression="" variableSubstitutionActive="false">12a8</ivalue>
+                <ivalue classname="ica.usbredirection.devicepolicy.product_rule%.release" variableExpression="" variableSubstitutionActive="false"></ivalue>
+                <ivalue classname="ica.usbredirection.devicepolicy.product_rule%.rule" variableExpression="" variableSubstitutionActive="false">allow</ivalue>
+                <ivalue classname="ica.usbredirection.devicepolicy.product_rule%.vendor" variableExpression="" variableSubstitutionActive="false">05ac</ivalue>
+            </instance>
+            <instance classprefix="ica.usbredirection.devicepolicy.product_rule%" serialnumber="1cca3121:15ec097ff62:-7ffe10.218.232.162">
+                <ivalue classname="ica.usbredirection.devicepolicy.product_rule%.name" variableExpression="" variableSubstitutionActive="false">iPad</ivalue>
+                <ivalue classname="ica.usbredirection.devicepolicy.product_rule%.product" variableExpression="" variableSubstitutionActive="false">12ab</ivalue>
+                <ivalue classname="ica.usbredirection.devicepolicy.product_rule%.release" variableExpression="" variableSubstitutionActive="false"></ivalue>
+                <ivalue classname="ica.usbredirection.devicepolicy.product_rule%.rule" variableExpression="" variableSubstitutionActive="false">allow</ivalue>
+                <ivalue classname="ica.usbredirection.devicepolicy.product_rule%.vendor" variableExpression="" variableSubstitutionActive="false">05ac</ivalue>
+            </instance>
+        </instancesettings>
+    </profile>
+</profiles>
