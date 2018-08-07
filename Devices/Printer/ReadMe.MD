@@ -1,1 +1,1 @@
-
+local_printer_redirect_ica_rdp.xml
