@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<profiles>
+    <profile>
+        <profile_id>109500</profile_id>
+        <profilename>Citrix Receiver Codec Fix</profilename>
+        <firmware>
+            <model>IGEL UD Pocket</model>
+            <version>10.04.100.01</version>
+        </firmware>
+        <description>https://kb.igel.com/igelos/en/citrix-receiver-grey-blocks-in-excel-2013-2721291.html</description>
+        <overwritesessions>false</overwritesessions>
+        <is_master_profile>false</is_master_profile>
+        <settings>
+            <pclass name="ica.wfclient.texttrackingenabled">
+                <pvalue instancenr="-1" variableExpression="" variableSubstitutionActive="false">false</pvalue>
+                <variableSubstitutionActive>false</variableSubstitutionActive>
+            </pclass>
+            <pclass name="ica.wfclient.codec">
+                <pvalue instancenr="-1" variableExpression="" variableSubstitutionActive="false">h264</pvalue>
+                <variableSubstitutionActive>false</variableSubstitutionActive>
+            </pclass>
+            <pclass name="ica.wfclient.smallframesenabled">
+                <pvalue instancenr="-1" variableExpression="" variableSubstitutionActive="false">false</pvalue>
+                <variableSubstitutionActive>false</variableSubstitutionActive>
+            </pclass>
+        </settings>
+        <instancesettings/>
+    </profile>
+</profiles>
