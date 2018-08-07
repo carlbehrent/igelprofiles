@@ -1,6 +1,7 @@
 # IGEL Profiles
-Repository for custom IGEL profiles to share amongst other IGEL community members <br />
-Feel free to contact me if you want to contribute to the collection. <br />
+Repository for custom IGEL profiles to share amongst other IGEL community members. <br />
+Feel free to contact me if you want to contribute to the library. <br />
+Save the xml file and import into IGEL UMS. System > Import > Import Profiles.
 
 #### Updated 8th August 2018 <br />
 - Device > Printer - local_printer_redirect_ica_rdp.xml
