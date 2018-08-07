@@ -2,8 +2,11 @@
 Repository for custom IGEL profiles to share amongst other IGEL community members <br />
 Feel free to contact me if you want to contribute to the collection. <br />
 
+#### Updated 8th August 2018 <br />
+- Device > Printer -local_printer_redirect_ica_rdp.xml
+
 #### Updated 10th July 2018 <br />
-- Devices > usb_redirection.xml 
+- Devices - usb_redirection.xml 
 
 #### Updated 7th July 2018 <br />
 - Systems > Firmware Customizations - assettag2hostname.xml (Thanks Falk Heiland - IGEL Community) <br />
