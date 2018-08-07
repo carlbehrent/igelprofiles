@@ -4,6 +4,7 @@ Feel free to contact me if you want to contribute to the collection. <br />
 
 #### Updated 8th August 2018 <br />
 - Device > Printer - local_printer_redirect_ica_rdp.xml
+- Session > Citrix XenDesktop/XenApp - citrix_receiver_codec_fix.xml
 
 #### Updated 10th July 2018 <br />
 - Devices - usb_redirection.xml 
